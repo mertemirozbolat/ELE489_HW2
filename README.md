@@ -16,9 +16,9 @@ The following libraries are used in this project:
 The project can be run directly in **Google Colab**. Since the required libraries are already pre-installed in Colab, no additional installation is required. However, if running locally, you can install the necessary libraries using the following command:
 
 ```bash
-pip install pandas seaborn matplotlib scikit-learn```
+pip install pandas seaborn matplotlib scikit-learn
 
-## Dataset
+Dataset
 This project works with a user-uploaded .txt file. The file typically contains the following columns:
 
 Variance: Variance feature.
