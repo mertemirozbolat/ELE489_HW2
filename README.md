@@ -15,10 +15,10 @@ The following libraries are used in this project:
 ## Installation
 The project can be run directly in **Google Colab**. Since the required libraries are already pre-installed in Colab, no additional installation is required. However, if running locally, you can install the necessary libraries using the following command:
 
-```bash
-pip install pandas seaborn matplotlib scikit-learn
+`bash
+`pip install pandas seaborn matplotlib scikit-learn
 
-Dataset
+## Dataset
 This project works with a user-uploaded .txt file. The file typically contains the following columns:
 
 Variance: Variance feature.
@@ -27,7 +27,7 @@ Curtosis: Curtosis feature.
 Entropy: Entropy feature.
 Class: The class label ("Fake" or "Authentic").
 
-Results
+## Results
 The Decision Tree model is tested with different criteria (e.g., entropy and gini) and tree depths (max_depth).
 
 The model's classification performance is analyzed using classification reports and confusion matrices.
